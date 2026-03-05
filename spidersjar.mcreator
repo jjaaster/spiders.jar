@@ -1,0 +1,61 @@
+{
+  "mod_elements": [
+    {
+      "name": "BrownSpider",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_spider",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spidersjar/neoforge/biome_modifier/brown_spider_biome_modifier.json",
+          "src/main/resources/assets/spidersjar/items/brown_spider_spawn_egg.json",
+          "src/main/java/net/mcreator/spidersjar/client/renderer/BrownSpiderRenderer.java",
+          "src/main/resources/assets/spidersjar/models/item/brown_spider_spawn_egg.json",
+          "src/main/java/net/mcreator/spidersjar/entity/BrownSpiderEntity.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.spidersjar.brown_spider_spawn_egg": "Brown Spider Spawn Egg",
+      "entity.spidersjar.brown_spider": "Brown Spider"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/spidersjar/init/SpidersjarModItems.java",
+      "src/main/java/net/mcreator/spidersjar/init/SpidersjarModEntityRenderers.java",
+      "src/main/java/net/mcreator/spidersjar/init/SpidersjarModEntities.java",
+      "src/main/java/net/mcreator/spidersjar/SpidersjarMod.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/spidersjar/init/SpidersjarModTabs.java",
+      "src/main/resources/pack.mcmeta"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "spidersjar",
+    "modName": "Spiders.jar",
+    "version": "1.0.0",
+    "author": "MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.8",
+    "modElementsPackage": "net.mcreator.spidersjar"
+  },
+  "mcreatorVersion": 202500345720
+}
